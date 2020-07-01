@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fruit-configmap
+data:
+  banana.service.name: "http://banana-clusterip:9000"
+  apple.service.name: "http://apple-clusterip:9000"
